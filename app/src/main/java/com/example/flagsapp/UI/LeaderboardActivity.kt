@@ -53,7 +53,7 @@ class LeaderboardActivity : AppCompatActivity() {
                     userArrayList.add(dc.document.toObject(Users::class.java))
                 }
             }
-            adapter.notifyDataSetChanged()
+
         }
     }
 }
